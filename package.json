@@ -1,0 +1,19 @@
+{
+  "name": "parcel-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html --public-url ./",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <form id="contactsForm"> 
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <input type="emeil" id="email" name="emeil" required>
+    <br>
+    <br>
+    <label for="message">Message</label>
+    <textarea type="message" id="message" name="message" required></textarea>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+    </form>
+
+    <div id="successMessage"> Thank you!!! </div>
+    <script src="saveData.js"></script>
+    <script type="module" src="/src/index.js"></script>
+</body>
+</html>
